@@ -5,9 +5,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.util.ArrayList;
@@ -22,7 +26,7 @@ public class Base {
 
     @Parameters(("url"))
     @BeforeMethod
-    public void setUp(String url){
+    public void setUp ( String url){
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(url);
@@ -37,17 +41,14 @@ public class Base {
 
     public void clickByCss(String locator){
     driver.findElement(By.cssSelector(locator)).click();
-
     }
 
     public void clickByXpath(String locator){
         driver.findElement(By.xpath(locator)).click();
-
     }
 
     public void typeByCss(String locator, String value){
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
-
     }
 
     public void typeBycssThenEnter(String locator, String value){
@@ -112,5 +113,50 @@ public class Base {
     public WebElement getWebElementByXpath(String locator){
         WebElement element = driver.findElement(By.xpath(locator));
         return element;
+    }
+
+    //constant sleep time
+    public void sleepFor(int sec) throws InterruptedException{
+        Thread.sleep(1000*sec);
+    }
+
+    //Synchronization
+
+    public void waitUnitClickAble(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+
+    public void waitUntilVisible(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public void waitUnitSelectable(By locator){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+
+    //get WebElements
+
+    public List<WebElement> getWebElements(String locator){
+        List<WebElement> elements = driver.findElements(By.cssSelector(locator));
+        return elements;
+    }
+
+    public List<String> getElementTexts(String locator){
+        List<String> texts = new ArrayList<String>();
+        List<WebElement> element = new ArrayList<WebElement>();
+        element = getWebElements(locator);
+        for(WebElement st:element) {
+            texts.add(st.getText());
+        }
+        return texts;
+    }
+
+    //Keys
+
+    public void clearInputBox(String locator){
+
     }
 }
