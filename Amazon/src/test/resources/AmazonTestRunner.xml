@@ -3,7 +3,14 @@
     <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
     <suite name = "Amazon App running on Firefox">
 
-        <parameter name="url" value="http://www.amazon.com"/>
+        <parameter name="useSauceLab" value="true"/>
+        <parameter name="userName" value="hamir10"/>
+        <parameter name="key" value="9bea5bba-3974-479e-a9b5-a047128ec210"/>
+
+        <parameter name="appUrl" value="http://www.amazon.com"/>
+        <parameter name="os" value="windows"/>
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="browserVersion" value="30"/>
 
         <test name = "Home Page">
             <classes>
