@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290cab04-eabd-47f6-a2b9-8fb87aa32790" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/SeleniumBrowserDriver/SeleniumWebDrivers/IEDriverServer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/SeleniumBrowserDriver/SeleniumWebDrivers/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/main/java/search/DropDownSearchList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/src/main/java/DropDownSearchList.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/amazon/Retail.class" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/amazon/Retail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/CommonAPI/Base.class" afterPath="$PROJECT_DIR$/Generic/target/classes/CommonAPI/Base.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNN/src/main/java/news/CnnBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNN/src/test/java/home/Search.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/amazon/Retail.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/amazon/Retail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/CNN.iml" afterPath="$PROJECT_DIR$/CNN/CNN.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml" afterPath="$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/target/test-classes/CNNTestrunner.xml" afterPath="$PROJECT_DIR$/CNN/target/test-classes/CNNTestrunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebay/Ebay.iml" afterPath="$PROJECT_DIR$/Ebay/Ebay.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="SpaceAutomationFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,6 +25,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpaceAutomationFramework$C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml.coverage" NAME="$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml Coverage Results" MODIFIED="1452116489909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -50,21 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <caret line="106" column="23" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,18 +52,40 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.785715">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4612904">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNN/src/test/java/home/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.077419356">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CnnBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN/src/main/java/news/CnnBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,7 +96,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.857143">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding />
             </state>
@@ -107,8 +106,8 @@
       <file leaf-file-name="CNNTestrunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.785714">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state vertical-scroll-proportion="-14.928572">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,11 +117,8 @@
         <entry file="file://$PROJECT_DIR$/CNN/src/test/java/home/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,7 +126,7 @@
       <file leaf-file-name="AmazonTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.857143">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding />
             </state>
@@ -143,18 +139,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Retail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/amazon/Retail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -199,10 +183,12 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/amazon/Retail.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java" />
-        <option value="$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
+        <option value="$PROJECT_DIR$/CNN/src/main/java/news/CnnBase.java" />
+        <option value="$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml" />
+        <option value="$PROJECT_DIR$/CNN/src/test/java/home/Search.java" />
       </list>
     </option>
   </component>
@@ -329,7 +315,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="-12" />
     <option name="width" value="3214" />
     <option name="height" value="1722" />
   </component>
@@ -575,6 +561,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceAutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceAutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CNN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceAutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpaceAutomationFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CNN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1102,30 +1140,36 @@
       <option name="project" value="LOCAL" />
       <updated>1451516191239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+POI&#10;+DataReader">
+      <created>1452015165712</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452015165712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_Amazon_src_test_resources_AmazonTestRunner_xml - 2016.01.04 at 18h 26m 14s.xml">
-      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_Amazon_src_test_resources_AmazonTestRunner_xml - 2016.01.04 at 18h 26m 54s.xml">
-      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_Amazon_src_test_resources_AmazonTestRunner_xml - 2016.01.04 at 18h 29m 57s.xml">
-      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.05 at 09h 32m 50s.xml">
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.05 at 17h 47m 21s.xml">
       <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.05 at 09h 33m 55s.xml">
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.06 at 16h 41m 42s.xml">
       <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2015.12.31 at 12h 42m 58s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.06 at 16h 45m 36s.xml">
+      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2015.12.31 at 12h 48m 16s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.06 at 16h 52m 58s.xml">
+      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.06 at 16h 54m 26s.xml">
+      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.07 at 19h 39m 44s.xml">
+      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_H_IdeaProjects_SpaceAutomationFramework_CNN_src_test_resources_CNNTestrunner_xml - 2016.01.07 at 20h 50m 56s.xml">
+      <configuration name="C:/Users/H/IdeaProjects/SpaceAutomationFramework/CNN/src/test/resources/CNNTestrunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Retail - 2015.12.30 at 10h 47m 39s.xml">
       <configuration name="Retail" configurationId="TestNG" />
@@ -1138,17 +1182,17 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="3214" height="1722" extended-state="0" />
-    <editor active="false" />
+    <frame x="-12" y="0" width="3214" height="1722" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830706" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784638" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16505168" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853225" sideWeight="0.501292" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16957365" sideWeight="0.4964249" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853225" sideWeight="0.498708" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25516796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1161,6 +1205,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16731267" sideWeight="0.5035751" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1178,7 +1223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base code without sleep synchronization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base code without sleep synchronization" />
+    <MESSAGE value="+POI&#10;+DataReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="+POI&#10;+DataReader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1191,27 +1237,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/search/DropDownSearchList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,9 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,11 +1303,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,9 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,11 +1391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,9 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,11 +1480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,9 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1533,7 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,9 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,10 +1570,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/CommonAPI/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="106" column="23" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/src/main/java/news/CnnBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1583,50 +1633,15 @@
     <entry file="file://$PROJECT_DIR$/CNN/src/test/java/home/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CNNTestrunner.xml">
+    <entry file="file://$PROJECT_DIR$/CNN/src/test/java/home/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.785714">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.857143">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.785715">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4612904">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.077419356">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

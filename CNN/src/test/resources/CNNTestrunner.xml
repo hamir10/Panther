@@ -2,18 +2,19 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "CNN App running on Firefox">
-       <parameter name="useSauceLab" value="true"/>
+       <parameter name="useSauceLab" value="false"/>
        <parameter name="userName" value="hamir10"/>
        <parameter name="key" value="9bea5bba-3974-479e-a9b5-a047128ec210"/>
 
        <parameter name="appUrl" value="http://www.cnn.com"/>
-       <parameter name="os" value="windows"/>
+       <parameter name="os" value="windows 8"/>
        <parameter name="browserName" value="firefox"/>
-       <parameter name="browserVersion" value="30"/>
+       <parameter name="browserVersion" value="39.0"/>
 
            <test name="Home Page">
                <classes>
-                   <class name="home.HomePage"/>
+                  <!-- <class name="home.HomePage"/>-->
+                   <class name="home.Search"/>
                </classes>
            </test>
 
