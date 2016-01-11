@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Properties;
 
 /**
  * Created by H on 1/5/2016.
@@ -23,6 +24,16 @@ public class DataReader {
     Cell cell = null;
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
+
+
+   /* public void ReadProperty() throws IOException{
+        System.out.println("These are search words");
+        Properties p = new Properties();
+        p.load(getClass().getResourceAsStream("test1.properties"));
+        String propName = p.getProperty("name");
+        System.out.println("propName");
+
+    }*/
 
     public String[][] fileReader(String path)throws IOException{
         String [] [] data = {};
